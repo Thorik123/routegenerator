@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Belajar Routing'),
+        title: const Text('Belajar RouteGenerator'),
       ),
       body: Center(
         child: Column(
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/halaman-404');
               },
-              child: const Text('Tap Halam Lain'),
+              child: const Text('Tap Halaman Lain'),
             ),
           ],
         ),
